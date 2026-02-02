@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy Shopping (responsivo)</title>
+    <!--         fonte do google fontes         -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"/>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Oswald", sans-serif;
+        font-weight: 400;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .container-left {
+        display: inline-block;
+        width: 60%;
+        padding-left: 76px;
+        margin-top: 15%;
+      }
+
+      .container-right {
+        display: inline-block;
+        background-color: rgba(93, 93, 125, 0.16);
+        height: 100vh;
+        width: 40vw;
+        position: absolute;
+      }
+
+      img {
+        height: 500px;
+        position: relative;
+        top: 5%;
+        right: 80px;
+      }
+
+      h1 {
+        width: 368px;
+        font-size: 50px;
+        line-height: 70px;
+        color: #5D5D7D;
+        margin-top: 5%;
+      }
+
+      p {
+        width: 540px;
+        font-size: 20px;
+        line-height: 30px;
+        color: #5D5D7D;
+        opacity: 0.6;
+        margin: 15px 0;
+      }
+      
+      header {
+        margin: 15px 0 0 57px;
+      }
+
+      a {
+        font-size: 22px;
+        line-height: 41px;
+        color: #5D5D7D;
+        margin-right: 41px;
+      }
+
+      a:nth-child(2) {
+        opacity: 0.4;
+      }
+
+      a:hover {
+        opacity: 0.4;
+      }
+
+      a:active {
+        opacity: 0.8;
+      }
+
+      button {
+        width: 259px;
+        height: 62px;
+        background: #9499EA;
+        box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+        border: none;
+        border-radius: 36px;
+        
+        font-size: 22px;
+        line-height: 36px;
+        text-align: center;
+        color: #ffffff;
+        cursor: pointer;
+      }
+
+      button:hover {
+        opacity: 0.8;
+
+      }
+
+      button:active {
+        opacity: 0.5;
+      }
+
+      @media screen and (max-width: 1000px) {
+        .container-left {
+          width: 100%;
+          height: 50%;
+          padding: 0;
+          margin: 0;
+          margin-bottom: 20px;
+        }
+
+        .container-right {
+          display: block;
+          height: auto;
+          width: 100%;
+          position: static;
+          padding: 40px;
+        }
+
+        img {
+          position: static;
+          max-width: 80%;
+        }
+
+        header {
+          display: none;
+        }
+
+        h1 {
+          font-size: 36px;
+          line-height: 52px;
+          width: auto;
+          margin: 58px 50px 0 50px;
+          text-align: center;
+        }
+
+        p {
+          margin: 15px 15px 40px;
+          width: auto;
+          font-size: 22px;
+          line-height: 30px;
+          text-align: center;
+        }
+
+        button {
+          display: block; 
+          margin: 0 auto; /*top = 0 bottom = 0 e left = auto right = auto*/
+        }
+
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <section class="container-left">
+        <h1>Ease Shopping</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at id
+          vero illum. <br>Cupiditate quae sit praesentium. 
+        </p>
+        <button>Get Started</button>
+      </section>
+
+      <section class="container-right">
+        <header>
+          <a href="#">Home</a>
+          <a href="#">Work</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </header>
+        <img src="./image.png" alt="girl-cellphone" />
+      </section>
+    </div>
+
+  </body>
+</html>
