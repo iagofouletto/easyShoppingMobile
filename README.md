@@ -7,7 +7,7 @@
   - CSS
 <br>
 <p>from desktop</p>
-<img src="https://github.com/iagofouletto/easy-shopping/blob/main/img/easy-shopping-page.jpeg?raw=true" />
+<img src="https://github.com/iagofouletto/easy-shopping/blob/main/img/easy-shopping-desktop.jpeg?raw=true" />
 <br>
 <p>from mobile</p>
 <img src="https://github.com/iagofouletto/easy-shopping/blob/main/img/easy-shopping-mobile.png?raw=true" />
